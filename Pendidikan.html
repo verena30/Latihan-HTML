@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        nav {
+            float: left;
+            width:30%;
+            height: 300px;
+            background: #ccc;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+        section: :after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        @media (max-width:600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+        table, th, td {
+            border: 2px solid black; border-collapse: collapse;}
+    </style>
+</head>
+<body>
+   <header>
+    <h2>Veronika Rena</h2>
+   </header> 
+   <section>
+    <nav>
+        <ul>
+            <li><a href="Latihan 4.html">Introduction</a></li>
+            <li><a href="Pendidikan.html">Pendidikan</a></li>
+            <li><a href="Organisasi.html">Organisasi</a></li>
+        </ul>
+        </nav>
+    <article>
+        <table>
+            <tr>
+                <th colspan="3"> Riwayat Pendidikan</th>
+            </tr>
+            <tr>
+                <th>NO</th>
+                <th>NAMA SEKOLAH</th>
+                <th>TAHUN</th>
+            </tr>
+            <tr>
+            <td>1</td>
+            <td>SDK Minggir</td>
+            <td>2014-2019</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SMP PL Moyudan</td>
+                <td>2019-2022</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SMA PL Sedayu</td>
+                <td>2022-2025</td>
+            </tr>
+        </table>
+    </article>
+   </section>
+   <footer>
+    <p>Copyright & copy: Veronika Rena 2024</p>
+   </footer>
+</body>
+</html>
